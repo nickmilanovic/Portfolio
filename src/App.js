@@ -62,7 +62,7 @@ function Portfolio(){
       <div className="portfolio-container">
         {/* Each project as a card */}
         <div className="project-card">
-          <img src={petstore} alt="Pet Store Inventory" className="project-image" />
+          <img src={require('/public/petstore.png')} alt="Pet Store Inventory" className="project-image" />
           <h2>Pet Store Inventory (React)</h2>
           <p>A dynamic inventory management system for a pet store built with React.</p>
           <a href="https://github.com/nickmilanovic/Pet_Store_Inventory" target="_blank" rel="noopener noreferrer">View Project</a>
