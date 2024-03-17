@@ -3,6 +3,13 @@ import React, {useRef, useState} from 'react';
 import emailjs from '@emailjs/browser';
 import portfolioPic from './/portfolioPic.jpg';
 import blackjackers from './/blackjackers.PNG';
+import telegram from './/telegram.PNG';
+import lebron from './/lebron.PNG';
+import maze from './/maze.PNG';
+import cart from './/cart.PNG';
+import lotr from './/lotr.PNG';
+
+
 import {Link, Element, animateScroll as scroll} from 'react-scroll';
 
 function Navbar() {
@@ -81,31 +88,31 @@ function Portfolio(){
           <a href="https://github.com/nickmilanovic/BlackJackers" target="_blank" rel="noopener noreferrer">View Project</a>
         </div>
         <div className="project-card">
-          <img src="./lotr.png" alt="lotr" className='project-image' />
+          <img src={lotr} alt="lotr" className='project-image' />
           <h2>Lord Of The Rings (Java)</h2>
           <p>Various data structures used to iterate over the Lord of The Rings novel to perform tasks.</p>
           <a href="https://github.com/nickmilanovic/Lord_Of_The_Rings" target="_blank" rel="noopener noreferrer">View Project</a>
         </div>
         <div className="project-card">
-          <img src="./telegram.png" alt="telegram" className='project-image' />'
+          <img src={telegram} alt="telegram" className='project-image' />'
           <h2>Automated Telegram Channel (Python)</h2>
           <p>Signal channel for Telegram giving traders the opportunity to provide their trades autonomously.</p>
           <a href="https://github.com/nickmilanovic/AutomatedTelegramChannel" target="_blank" rel="noopener noreferrer">View Project</a>
         </div>
         <div className='project-card'>
-          <img src="./lebron.png" alt="lebron" className='project-image' />
+          <img src={lebron} alt="lebron" className='project-image' />
           <h2>LeBron James FAQ AI Bot (Python)</h2>
           <p>AI Chat Bot built for discord answering FAQ about LeBron James.</p>
           <a href="https://github.com/nickmilanovic/LeBron_James_FAQ_Bot" target="_blank" rel="noopener noreferrer">View Project</a>
         </div>
         <div className='project-card'>
-          <img src="./maze.png" alt="maze" className='project-image' />
+          <img src={maze} alt="maze" className='project-image' />
           <h2>AI Maze Solver (Python)</h2>
           <p>Comparison of 3 different algorithms to test maze solving efficiency.</p>
           <a href="https://https://github.com/nickmilanovic/AI_Maze_Solver" target="_blank" rel="noopener noreferrer">View Project</a>
         </div>
         <div className='project-card'>
-          <img src="./cart.png" alt="cart" className='project-image' />
+          <img src={cart} alt="cart" className='project-image' />
           <h2>Rest API (PHP)</h2>
           <p>Rest API built in PHP for a shopping cart for an E-Commerce website.</p>
           <a href="https://github.com/nickmilanovic/Rest_API_Shopping_Cart" target="_blank" rel="noopener noreferrer">View Project</a>
