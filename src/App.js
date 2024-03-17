@@ -62,49 +62,49 @@ function Portfolio(){
       <div className="portfolio-container">
         {/* Each project as a card */}
         <div className="project-card">
-          <img src='petstore.PNG' alt="Pet Store Inventory" className="project-image" />
+          <img src='./petstore.PNG' alt="Pet Store Inventory" className="project-image" />
           <h2>Pet Store Inventory (React)</h2>
           <p>A dynamic inventory management system for a pet store built with React.</p>
           <a href="https://github.com/nickmilanovic/Pet_Store_Inventory" target="_blank" rel="noopener noreferrer">View Project</a>
         </div>
         <div className="project-card">
-          <img src="northwind.png" alt="North Wind Traders" className="project-image" />
+          <img src="./northwind.png" alt="North Wind Traders" className="project-image" />
           <h2>Northwind Traders (ASP.NET)</h2>
           <p>Database management website built for Northwind Traders with C# on ASP.NET framework using Model-View-Controller template.</p>
           <a href="https://github.com/nickmilanovic/Northwind_Traders" target="_blank" rel="noopener noreferrer">View Project</a>
         </div>
         <div className="project-card">
-          <img src='blackjackers.png' alt='blackjackers' className='project-image' />
+          <img src='./blackjackers.png' alt='blackjackers' className='project-image' />
           <h2>BlackJackers (Python)</h2>
           <p>App that gives Black Jack players an edge when playing on online casinos with the method of card counting.</p>
           <a href="https://github.com/nickmilanovic/BlackJackers" target="_blank" rel="noopener noreferrer">View Project</a>
         </div>
         <div className="project-card">
-          <img src="lotr.png" alt="lotr" className='project-image' />
+          <img src="./lotr.png" alt="lotr" className='project-image' />
           <h2>Lord Of The Rings (Java)</h2>
           <p>Various data structures used to iterate over the Lord of The Rings novel to perform tasks.</p>
           <a href="https://github.com/nickmilanovic/Lord_Of_The_Rings" target="_blank" rel="noopener noreferrer">View Project</a>
         </div>
         <div className="project-card">
-          <img src="telegram.png" alt="telegram" className='project-image' />'
+          <img src="./telegram.png" alt="telegram" className='project-image' />'
           <h2>Automated Telegram Channel (Python)</h2>
           <p>Signal channel for Telegram giving traders the opportunity to provide their trades autonomously.</p>
           <a href="https://github.com/nickmilanovic/AutomatedTelegramChannel" target="_blank" rel="noopener noreferrer">View Project</a>
         </div>
         <div className='project-card'>
-          <img src="lebron.png" alt="lebron" className='project-image' />
+          <img src="./lebron.png" alt="lebron" className='project-image' />
           <h2>LeBron James FAQ AI Bot (Python)</h2>
           <p>AI Chat Bot built for discord answering FAQ about LeBron James.</p>
           <a href="https://github.com/nickmilanovic/LeBron_James_FAQ_Bot" target="_blank" rel="noopener noreferrer">View Project</a>
         </div>
         <div className='project-card'>
-          <img src="maze.png" alt="maze" className='project-image' />
+          <img src="./maze.png" alt="maze" className='project-image' />
           <h2>AI Maze Solver (Python)</h2>
           <p>Comparison of 3 different algorithms to test maze solving efficiency.</p>
           <a href="https://https://github.com/nickmilanovic/AI_Maze_Solver" target="_blank" rel="noopener noreferrer">View Project</a>
         </div>
         <div className='project-card'>
-          <img src="cart.png" alt="cart" className='project-image' />
+          <img src="./cart.png" alt="cart" className='project-image' />
           <h2>Rest API (PHP)</h2>
           <p>Rest API built in PHP for a shopping cart for an E-Commerce website.</p>
           <a href="https://github.com/nickmilanovic/Rest_API_Shopping_Cart" target="_blank" rel="noopener noreferrer">View Project</a>
