@@ -2,6 +2,7 @@ import './App.css';
 import React, {useRef, useState} from 'react';
 import emailjs from '@emailjs/browser';
 import portfolioPic from './/portfolioPic.jpg';
+import blackjackers from './/blackjackers.PNG';
 import {Link, Element, animateScroll as scroll} from 'react-scroll';
 
 function Navbar() {
@@ -62,7 +63,7 @@ function Portfolio(){
       <div className="portfolio-container">
         {/* Each project as a card */}
         <div className="project-card">
-          <img src={require('./petstore.PNG')} alt="Pet Store Inventory" className="project-image" />
+          <img src='./petstore.PNG' alt="Pet Store Inventory" className="project-image" />
           <h2>Pet Store Inventory (React)</h2>
           <p>A dynamic inventory management system for a pet store built with React.</p>
           <a href="https://github.com/nickmilanovic/Pet_Store_Inventory" target="_blank" rel="noopener noreferrer">View Project</a>
@@ -74,7 +75,7 @@ function Portfolio(){
           <a href="https://github.com/nickmilanovic/Northwind_Traders" target="_blank" rel="noopener noreferrer">View Project</a>
         </div>
         <div className="project-card">
-          <img src='./blackjackers.png' alt='blackjackers' className='project-image' />
+          <img src={blackjackers} alt='blackjackers' className='project-image' />
           <h2>BlackJackers (Python)</h2>
           <p>App that gives Black Jack players an edge when playing on online casinos with the method of card counting.</p>
           <a href="https://github.com/nickmilanovic/BlackJackers" target="_blank" rel="noopener noreferrer">View Project</a>
